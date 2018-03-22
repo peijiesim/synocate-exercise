@@ -2,9 +2,9 @@
 
 ## Getting Started
 
-To get started, close this repository
+To get started, clone this repository
 ```
-git clone https://github.com/...
+git clone git@github.com:peijiesim/synocate-exercise.git
 ```
 
 ## Usage
@@ -23,11 +23,13 @@ To install `Yarn` on Windows, you have multiple options. You can read more about
 
 Install the dependencies listed in `package.json`
 ```
-cd [folder name]
+cd synocate-exercise
 yarn install
 ```
 
 Run the application
 ```
-yarn start
+yarn dev
 ```
+
+The server and client will both be started. Now, navigate to `http://localhost:3000` to view the application. 
